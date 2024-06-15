@@ -1,5 +1,3 @@
----
-
 # API JWT Rest API
 
 ## Visão Geral
@@ -140,10 +138,10 @@ Uma resposta HTTP `503` indica que o tráfego da API aumentou inesperadamente. O
 ## Testes com Insomnia
 A API JWT Rest API foi testada usando o Insomnia. Você pode baixar a coleção de testes e importá-la diretamente no Insomnia para testar os endpoints e o comportamento da API.
 
-### Fluxograma
+### Diagrama - JWT
 ![Fluxograma](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/586673e1-9f05-47e6-b106-ae33e24f9f2d)
 
-### Prints do Insomnia
+### Imagens do Insomnia em execusão:
 1. **Login Endpoint** - "http://localhost:8080/login"
 ![LOGIN](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/db9e9572-30d0-4032-81d5-d05ea81342c6)
 
