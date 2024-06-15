@@ -141,26 +141,27 @@ Uma resposta HTTP `503` indica que o tráfego da API aumentou inesperadamente. O
 A API JWT Rest API foi testada usando o Insomnia. Você pode baixar a coleção de testes e importá-la diretamente no Insomnia para testar os endpoints e o comportamento da API.
 
 ### Fluxograma
-![Fluxograma](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/6b9cc640-661b-4c9f-881f-f7e0628e1df3)
+![Fluxograma](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/586673e1-9f05-47e6-b106-ae33e24f9f2d)
 
 ### Prints do Insomnia
 1. **Login Endpoint** - "http://localhost:8080/login"
-![LOGIN](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/b761dea6-0881-4610-9ba3-dcb2b9f4dba6)
+![LOGIN](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/db9e9572-30d0-4032-81d5-d05ea81342c6)
 
 2. **Username Endpoint** - "http://localhost:8080/username/{token}"
-![USERNAME](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/be2513fe-4bb6-48f3-b1d4-0cceb0b91929)
+![USERNAME](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/6cfe8cf3-52f1-469f-be90-61bf7c4fc169)
 
 4. **User Endpoint** - "http://localhost:8080/user"
-![USER](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/f4d5eb8f-e3a0-4212-8e6c-6beab22bb054)
+![USER](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/71625005-1a70-44d0-894a-289ef4e3eb91)
 
 5. **Admin Endpoint**  - "http://localhost:8080/admin"
-![ADMINISTRADOR](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/35b93fe7-1454-4a50-8121-4fc833cbdf90)
+![ADMINISTRADOR](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/323c7418-7164-4000-96c6-363e0e68e055)
 
 6. **Moderado Endpoint** - "http://localhost:8080/moderado"
-![MODERADOR](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/e09e3078-3b80-46f8-90b5-92e49c89f2d1)
+![MODERADOR](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/12ea5c49-b0f9-4652-b744-c369c39af212)
 
 7. **Comum Endpoint** - "http://localhost:8080/comum"
-![USUARIOCOMUM](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/04291ec4-4ffe-41d2-94aa-2ddf1888ce07)
+![USUARIOCOMUM](https://github.com/GabrielRodriggues/Arquitetura_de_Aplicacoes_Web/assets/112523344/99bce14c-c7df-40bb-ae43-8bdc8d3b3aec)
+
 
 ## Conclusão
 Este é um projeto de demonstração que explica a implementação de segurança em uma aplicação web, utilizando JWT como um mecanismo para suportar autenticação e autorização. Ele descreve a implementação de diferentes níveis de acesso com base nos papéis dos usuários e como, da melhor maneira, implementar tokens JWT para autenticação e autorização de usuários funcionais. Para executar o projeto, é necessário ter um ambiente de desenvolvimento com todas as dependências corretamente instaladas e usar ferramentas de inspeção como o Insomnia para experimentar os endpoints e observar o comportamento da API.
